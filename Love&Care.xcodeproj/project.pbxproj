@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5A76352CCC5026004681AD /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5A76342CCC5025004681AD /* Onboarding.swift */; };
+		FF5A76372CCC502D004681AD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5A76362CCC502D004681AD /* Home.swift */; };
+		FF6DFAD52CCBE7AA009C785B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFACF2CCBE7AA009C785B /* Preview Assets.xcassets */; };
+		FF6DFAD62CCBE7AA009C785B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFAD12CCBE7AA009C785B /* Assets.xcassets */; };
+		FF6DFAD72CCBE7AA009C785B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DFAD22CCBE7AA009C785B /* ContentView.swift */; };
+		FF6DFAD82CCBE7AA009C785B /* Love_CareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DFAD32CCBE7AA009C785B /* Love_CareApp.swift */; };
+		FF6DFADB2CCBE7AF009C785B /* Love_CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DFAD92CCBE7AF009C785B /* Love_CareTests.swift */; };
+		FF6DFADF2CCBE7B3009C785B /* Love_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DFADC2CCBE7B3009C785B /* Love_CareUITests.swift */; };
+		FF6DFAE02CCBE7B3009C785B /* Love_CareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DFADD2CCBE7B3009C785B /* Love_CareUITestsLaunchTests.swift */; };
+		FF6DFAE32CCBE804009C785B /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFAE22CCBE804009C785B /* success.m4a */; };
+		FF6DFAE42CCBE804009C785B /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6DFAE12CCBE804009C785B /* chimeup.mp3 */; };
+		FFDD29472CCCD57200042FC7 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD29462CCCD57200042FC7 /* CircleGroupView.swift */; };
+		FFDD29492CCD26B200042FC7 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD29482CCD26B200042FC7 /* PlaySound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6DFAB32CCBE773009C785B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6DFA9A2CCBE772009C785B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6DFAA12CCBE772009C785B;
+			remoteInfo = "Love&Care";
+		};
+		FF6DFABD2CCBE773009C785B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6DFA9A2CCBE772009C785B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6DFAA12CCBE772009C785B;
+			remoteInfo = "Love&Care";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF5A76342CCC5025004681AD /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		FF5A76362CCC502D004681AD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FF6DFAA22CCBE772009C785B /* Love&Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love&Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6DFAB22CCBE773009C785B /* Love&CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love&CareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6DFABC2CCBE773009C785B /* Love&CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Love&CareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6DFACF2CCBE7AA009C785B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF6DFAD12CCBE7AA009C785B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF6DFAD22CCBE7AA009C785B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF6DFAD32CCBE7AA009C785B /* Love_CareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_CareApp.swift; sourceTree = "<group>"; };
+		FF6DFAD92CCBE7AF009C785B /* Love_CareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_CareTests.swift; sourceTree = "<group>"; };
+		FF6DFADC2CCBE7B3009C785B /* Love_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_CareUITests.swift; sourceTree = "<group>"; };
+		FF6DFADD2CCBE7B3009C785B /* Love_CareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love_CareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF6DFAE12CCBE804009C785B /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		FF6DFAE22CCBE804009C785B /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		FFDD29462CCCD57200042FC7 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		FFDD29482CCD26B200042FC7 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6DFA9F2CCBE772009C785B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DFAAF2CCBE773009C785B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DFAB92CCBE773009C785B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6DFA992CCBE772009C785B = {
+			isa = PBXGroup;
+			children = (
+				FF6DFAD42CCBE7AA009C785B /* Love&Care */,
+				FF6DFADA2CCBE7AF009C785B /* Love&CareTests */,
+				FF6DFADE2CCBE7B3009C785B /* Love&CareUITests */,
+				FF6DFAA32CCBE772009C785B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6DFAA32CCBE772009C785B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFAA22CCBE772009C785B /* Love&Care.app */,
+				FF6DFAB22CCBE773009C785B /* Love&CareTests.xctest */,
+				FF6DFABC2CCBE773009C785B /* Love&CareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6DFAD02CCBE7AA009C785B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFACF2CCBE7AA009C785B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF6DFAD42CCBE7AA009C785B /* Love&Care */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFAE52CCBE80A009C785B /* Sounds */,
+				FF6DFAE62CCBE88F009C785B /* Utilites */,
+				FF6DFAE72CCBE8A6009C785B /* Components */,
+				FF6DFAE92CCBE8C0009C785B /* Screen */,
+				FF6DFAD12CCBE7AA009C785B /* Assets.xcassets */,
+				FF6DFAD02CCBE7AA009C785B /* Preview Content */,
+			);
+			path = "Love&Care";
+			sourceTree = "<group>";
+		};
+		FF6DFADA2CCBE7AF009C785B /* Love&CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFAD92CCBE7AF009C785B /* Love_CareTests.swift */,
+			);
+			path = "Love&CareTests";
+			sourceTree = "<group>";
+		};
+		FF6DFADE2CCBE7B3009C785B /* Love&CareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFADC2CCBE7B3009C785B /* Love_CareUITests.swift */,
+				FF6DFADD2CCBE7B3009C785B /* Love_CareUITestsLaunchTests.swift */,
+			);
+			path = "Love&CareUITests";
+			sourceTree = "<group>";
+		};
+		FF6DFAE52CCBE80A009C785B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFAE12CCBE804009C785B /* chimeup.mp3 */,
+				FF6DFAE22CCBE804009C785B /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		FF6DFAE62CCBE88F009C785B /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD29482CCD26B200042FC7 /* PlaySound.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		FF6DFAE72CCBE8A6009C785B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD29462CCCD57200042FC7 /* CircleGroupView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FF6DFAE92CCBE8C0009C785B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFAD32CCBE7AA009C785B /* Love_CareApp.swift */,
+				FF6DFAD22CCBE7AA009C785B /* ContentView.swift */,
+				FF5A76342CCC5025004681AD /* Onboarding.swift */,
+				FF5A76362CCC502D004681AD /* Home.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6DFAA12CCBE772009C785B /* Love&Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6DFAC62CCBE773009C785B /* Build configuration list for PBXNativeTarget "Love&Care" */;
+			buildPhases = (
+				FF6DFA9E2CCBE772009C785B /* Sources */,
+				FF6DFA9F2CCBE772009C785B /* Frameworks */,
+				FF6DFAA02CCBE772009C785B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Love&Care";
+			packageProductDependencies = (
+			);
+			productName = "Love&Care";
+			productReference = FF6DFAA22CCBE772009C785B /* Love&Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF6DFAB12CCBE773009C785B /* Love&CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6DFAC92CCBE773009C785B /* Build configuration list for PBXNativeTarget "Love&CareTests" */;
+			buildPhases = (
+				FF6DFAAE2CCBE773009C785B /* Sources */,
+				FF6DFAAF2CCBE773009C785B /* Frameworks */,
+				FF6DFAB02CCBE773009C785B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6DFAB42CCBE773009C785B /* PBXTargetDependency */,
+			);
+			name = "Love&CareTests";
+			packageProductDependencies = (
+			);
+			productName = "Love&CareTests";
+			productReference = FF6DFAB22CCBE773009C785B /* Love&CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF6DFABB2CCBE773009C785B /* Love&CareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6DFACC2CCBE773009C785B /* Build configuration list for PBXNativeTarget "Love&CareUITests" */;
+			buildPhases = (
+				FF6DFAB82CCBE773009C785B /* Sources */,
+				FF6DFAB92CCBE773009C785B /* Frameworks */,
+				FF6DFABA2CCBE773009C785B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6DFABE2CCBE773009C785B /* PBXTargetDependency */,
+			);
+			name = "Love&CareUITests";
+			packageProductDependencies = (
+			);
+			productName = "Love&CareUITests";
+			productReference = FF6DFABC2CCBE773009C785B /* Love&CareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6DFA9A2CCBE772009C785B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FF6DFAA12CCBE772009C785B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FF6DFAB12CCBE773009C785B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FF6DFAA12CCBE772009C785B;
+					};
+					FF6DFABB2CCBE773009C785B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FF6DFAA12CCBE772009C785B;
+					};
+				};
+			};
+			buildConfigurationList = FF6DFA9D2CCBE772009C785B /* Build configuration list for PBXProject "Love&Care" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF6DFA992CCBE772009C785B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FF6DFAA32CCBE772009C785B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6DFAA12CCBE772009C785B /* Love&Care */,
+				FF6DFAB12CCBE773009C785B /* Love&CareTests */,
+				FF6DFABB2CCBE773009C785B /* Love&CareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6DFAA02CCBE772009C785B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6DFAE32CCBE804009C785B /* success.m4a in Resources */,
+				FF6DFAE42CCBE804009C785B /* chimeup.mp3 in Resources */,
+				FF6DFAD52CCBE7AA009C785B /* Preview Assets.xcassets in Resources */,
+				FF6DFAD62CCBE7AA009C785B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DFAB02CCBE773009C785B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DFABA2CCBE773009C785B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6DFA9E2CCBE772009C785B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD29472CCCD57200042FC7 /* CircleGroupView.swift in Sources */,
+				FFDD29492CCD26B200042FC7 /* PlaySound.swift in Sources */,
+				FF5A76352CCC5026004681AD /* Onboarding.swift in Sources */,
+				FF6DFAD72CCBE7AA009C785B /* ContentView.swift in Sources */,
+				FF5A76372CCC502D004681AD /* Home.swift in Sources */,
+				FF6DFAD82CCBE7AA009C785B /* Love_CareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DFAAE2CCBE773009C785B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6DFADB2CCBE7AF009C785B /* Love_CareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DFAB82CCBE773009C785B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6DFADF2CCBE7B3009C785B /* Love_CareUITests.swift in Sources */,
+				FF6DFAE02CCBE7B3009C785B /* Love_CareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6DFAB42CCBE773009C785B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6DFAA12CCBE772009C785B /* Love&Care */;
+			targetProxy = FF6DFAB32CCBE773009C785B /* PBXContainerItemProxy */;
+		};
+		FF6DFABE2CCBE773009C785B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6DFAA12CCBE772009C785B /* Love&Care */;
+			targetProxy = FF6DFABD2CCBE773009C785B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF6DFAC42CCBE773009C785B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF6DFAC52CCBE773009C785B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF6DFAC72CCBE773009C785B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Love&Care/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Love-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF6DFAC82CCBE773009C785B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Love&Care/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Love-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF6DFACA2CCBE773009C785B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Love-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love&Care.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Love&Care";
+			};
+			name = Debug;
+		};
+		FF6DFACB2CCBE773009C785B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Love-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Love&Care.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Love&Care";
+			};
+			name = Release;
+		};
+		FF6DFACD2CCBE773009C785B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Love-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Love&Care";
+			};
+			name = Debug;
+		};
+		FF6DFACE2CCBE773009C785B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jo.Love-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Love&Care";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6DFA9D2CCBE772009C785B /* Build configuration list for PBXProject "Love&Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6DFAC42CCBE773009C785B /* Debug */,
+				FF6DFAC52CCBE773009C785B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6DFAC62CCBE773009C785B /* Build configuration list for PBXNativeTarget "Love&Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6DFAC72CCBE773009C785B /* Debug */,
+				FF6DFAC82CCBE773009C785B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6DFAC92CCBE773009C785B /* Build configuration list for PBXNativeTarget "Love&CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6DFACA2CCBE773009C785B /* Debug */,
+				FF6DFACB2CCBE773009C785B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6DFACC2CCBE773009C785B /* Build configuration list for PBXNativeTarget "Love&CareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6DFACD2CCBE773009C785B /* Debug */,
+				FF6DFACE2CCBE773009C785B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6DFA9A2CCBE772009C785B /* Project object */;
+}
